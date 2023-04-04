@@ -17,7 +17,8 @@ body{
     background-image: url('./asset/images/bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;;
+    background-size: cover;
+    width:100%;
   }
   
 .container {
