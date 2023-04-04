@@ -1,0 +1,179 @@
+body{
+    font-family: "roboto"sans-serif;
+}
+
+
+
+
+/*header*/
+.navbar-toggler-icon{
+    background-color:white ;
+    border-radius: 5px;
+}
+.navbar-scrolled{
+    background-color: black;
+}
+.header {
+    background-image: url('./asset/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;;
+  }
+  
+.container {
+    background-image: url('mon-image.jpg');
+
+  }
+  
+.header a{
+    font-size: 17px;
+    font-weight: 500;
+}
+.nav-item{
+    margin-left:5px;
+    margin-right:5px;
+}
+.nav-item a:hover{
+    transform: scale(0.8);
+    transition: 0.2s;
+  }
+
+/*hero*/
+.h1-title{
+    font-size: 40px;
+    line-height: 45px;
+    color: rgb(255, 252, 252);
+}
+.h2-title{
+    font-size: 40px;
+    font-weight: 700;
+    color:black;
+    line-height: 1.3em;
+    padding-bottom:40px;
+}
+.c-title{
+    color: rgb(26, 55, 99);
+    
+}
+#btn{
+    background-color: rgb(26, 55, 99);
+    border: none;
+}
+.btn:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  
+/*about*/
+/*Card bleu slide debut*/
+.container .card .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(26, 55, 99);
+}
+
+.container .card .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
+}
+
+.block .card .slide {
+    
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .slide.slide1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: .7s;
+    transform: translateY(100px);
+}
+
+.container .card:hover .slide.slide1{
+    transform: translateY(0px);
+}
+
+.container .card .slide.slide2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: .8s;
+    transform: translateY(-100px);
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+
+}
+
+.container .card:hover .slide.slide2{
+    transform: translateY(0);
+}
+
+.container .card .slide.slide2::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    bottom: 15px;
+    left: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(26, 55, 99);
+}
+
+.container .card .slide.slide2 .content p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #414141;
+}
+
+.container .card .slide.slide2 .content h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #414141;
+} 
+/*Card bleu slide debut*/
+/*banner*/ 
+.banner{
+    background-image: url(./asset/images/a.jpg);
+    width: 100%;
+    background-size:cover ;
+    background-attachment: fixed;
+    color: #fff;
+}
+/*service*/
+.services{
+    background-color: rgb(236, 233, 229);
+}
+/*working*/
+.read-me{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color:black;
+    
+}
+.h3-title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*gallery*/
+.gallery{
+    background-color: rgb(236, 233, 229);
+}
