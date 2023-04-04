@@ -16,8 +16,9 @@ body{
 .header {
     background-image: url('./asset/images/bg.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;;
+    background-size: cover;
+    width: 100%;
+    
   }
   
 .container {
@@ -148,7 +149,7 @@ body{
     text-align: center;
     color: #414141;
 } 
-/*Card bleu slide debut*/
+
 /*banner*/ 
 .banner{
     background-image: url(./asset/images/a.jpg);
@@ -176,4 +177,17 @@ body{
 /*gallery*/
 .gallery{
     background-color: rgb(236, 233, 229);
+}
+/*media*/
+@media (max-width: 767px) {
+  .h1-title {
+    display: none;
+    
+  }
+  .coworking {
+    font-size: 3.5rem;
+  }
+  .hero{
+    padding-top: 100px;
+  }
 }
