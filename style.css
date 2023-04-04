@@ -18,7 +18,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+<<<<<<< HEAD
     width:100%;
+=======
+>>>>>>> 254e33ec793080b3f7ea64d27ac2e60de9e3bbb2
   }
   
 .container {
@@ -191,6 +194,16 @@ body{
       padding-top: 100px;
     }
   }
+<<<<<<< HEAD
   
 
+=======
+  .coworking {
+    font-size: 3.5rem;
+  }
+  .hero{
+    padding-top: 100px;
+  }
+}
+>>>>>>> 254e33ec793080b3f7ea64d27ac2e60de9e3bbb2
 
