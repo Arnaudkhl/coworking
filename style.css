@@ -17,12 +17,8 @@ body{
     background-image: url('./asset/images/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< HEAD
     width: 100%;
-    
-=======
     width:100%;
->>>>>>> 87ab0023e2f01dbcece77d3d3a514ba74cfeb11c
   }
   
 .container {
@@ -182,19 +178,19 @@ body{
 .gallery{
     background-color: rgb(236, 233, 229);
 }
-<<<<<<< HEAD
+
 /*media*/
 @media (max-width: 767px) {
-  .h1-title {
-    display: none;
-    
+    .h1-title {
+      display: none;
+    }
+    .coworking h2 {
+      font-size: 3.5rem;
+    }
+    .hero {
+      padding-top: 100px;
+    }
   }
-  .coworking {
-    font-size: 3.5rem;
-  }
-  .hero{
-    padding-top: 100px;
-  }
-}
-=======
->>>>>>> 87ab0023e2f01dbcece77d3d3a514ba74cfeb11c
+  
+
+
